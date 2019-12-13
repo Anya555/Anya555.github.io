@@ -1,0 +1,119 @@
+img {
+height: 200px;
+width: 190px;
+margin-left: 10px;
+
+}
+
+input {
+width: 38%;
+padding: 8px;
+}
+
+.fixed-footer {
+    width: 1300px;
+    margin-left:-8px;
+    height: 50px;
+    background-color: #666666;
+    bottom: 0;
+    position: fixed;
+    border-top: solid 8px #4aaaa5;
+}
+
+
+.fixed-header {
+    position: fixed;
+    background-color: white;
+    margin: -88px 0 0 0;
+    width: 1300px;
+    margin-left:-8px;
+    height: 90px;
+    border-bottom: solid 1px rgb(163, 159, 159);
+}
+
+body {
+    background-color: #dddddd;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    margin: 20px 0 0 0;
+    width: 200px;
+    height:70px;
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: 157px;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+h2 {
+    color: #4aaaa5;
+    margin-left: 10px;
+}
+
+hr {
+    width: 940px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.section {
+    background-color:white;
+    width: 960px;
+    margin-left: 150px;
+    margin-top: 17px; 
+}
+
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: none;
+    padding: 2px;
+}
+
+li {
+    float: right;
+    margin-right: 180px;
+    margin-top: 50px;
+    font-family: cursive;
+}
+ li a {
+     color: #4aaaa5;
+     display: block;
+     text-decoration: none;
+ }
+
+ .fa-facebook {
+    font-size: 20px;
+    color: rgb(3, 3, 26);
+    float: left;
+    margin-left: 600px;
+    margin-top: 10px;
+ }
+
+ .fa-instagram {
+     font-size: 20px;
+     color:palevioletred;
+     float: left;
+     margin-left: 5px;
+     margin-top: 10px;
+ }
+
+ .fa-linkedin-in {
+    font-size: 20px;
+    color: navy;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+ 
