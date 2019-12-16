@@ -1,13 +1,15 @@
 img {
-height: 200px;
-width: 190px;
-margin-left: 10px;
-
+   height: 200px;
+   width: 190px;
+   margin-left: 10px;
 }
 
 input {
-width: 38%;
-padding: 8px;
+   padding: 8px;
+}
+
+input[type=text] {
+    width:507px;
 }
 
 .fixed-footer {
@@ -29,12 +31,17 @@ padding: 8px;
     margin-left:-8px;
     height: 90px;
     border-bottom: solid 1px rgb(163, 159, 159);
+    
 }
 
 body {
-    background-color: #dddddd;
+    background-image: url(https://allfreedesigns.com/wp-content/uploads/2013/08/subtle-patterns-7.jpg);
     padding-top: 60px;
     padding-bottom: 40px;
+}
+
+nav {
+    margin-right: 121px;
 }
 
 h1 {
@@ -46,7 +53,10 @@ h1 {
     text-align: center;
     float: left;
     margin-left: 157px;
+    line-height: 2.5em; 
+    vertical-align: middle;
 }
+
 
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -70,7 +80,21 @@ p {
     background-color:white;
     width: 960px;
     margin-left: 150px;
-    margin-top: 17px; 
+    margin-top: 60px;
+    border: solid 1px  rgb(163, 159, 159);
+}
+
+.p1 {
+    float: right;
+    width: 740px;
+    margin-right: 5px;
+}
+
+.p2 {
+    float: right;
+    width: 740px;
+    margin-top: -80px;
+    margin-right: 5px;
 }
 
 
@@ -83,7 +107,7 @@ ul {
 
 li {
     float: right;
-    margin-right: 180px;
+    margin-right: 60px;
     margin-top: 50px;
     font-family: cursive;
 }
@@ -91,6 +115,7 @@ li {
      color: #4aaaa5;
      display: block;
      text-decoration: none;
+     padding: 0;
  }
 
  .fa-facebook {
@@ -116,4 +141,158 @@ li {
     margin-left: 5px;
     margin-top: 10px;
 }
+
+.contact {
+   margin-left: 10px;
+}
+
+button {
+   background-color: #4aaaa5;
+   width: 100px;
+   margin-bottom: 6px;
+}
+
+ input {
+   width: 914px;
+ }
+
+ .relative {
+     height:430px;
+     margin-top: 15px;
+     position: relative;
+     position: fixed;
+ }
+
+ .image {
+    position:absolute;
+    width:110px;
+    height:100px;
+}
+
+.Canyon {
+    position: relative;
+}
+
+.text1 {
+    width:100px;
+    position: absolute;
+    z-index: auto;
+    top: 135px; 
+    left: 10px;
+    background-color: #4aaaa5;
+    color:white;
+    width:110px;
+    text-align:center;
+}
+
+.LA {
+    position: relative;
+    top: 22px;
+}
+
+.text2 {
+    width:100px;
+    position: absolute;
+    z-index: auto;
+    top: 260px; 
+    left: 10px; 
+    width: 110px;
+    background-color: #4aaaa5;
+    color:white;
+    text-align:center;
+}
+
+.Vegas {
+   position: relative;
+   top:38px;
+}
+
+.text3 {
+   width: 110px;
+   position: absolute;
+   z-index: auto;
+   top: 378px;
+   left:10px;
+   background-color: #4aaaa5;
+   color:white;
+   text-align:center;
+}
+
+.Miami {
+    position: relative;
+    float: left;
+    top: -310px;
+    left: 160px;
+}
+
+.text4 {
+    width: 110px;
+    position: absolute;
+    z-index: auto; 
+    top: 135px; 
+    left: 170px;
+    background-color: #4aaaa5;
+    color:white;
+    text-align:center;
+}
+
+.Diego {
+    position: relative;
+    float: left;
+    top: -184px;
+    left: 40px;
+  }
+
+ .text5 {
+    position: absolute;
+    left: 170px;
+    z-index: auto;
+    top: 260px;
+    width:110px;
+    background-color: #4aaaa5;
+    color:white;
+    text-align:center;
+}
+
+ .narrow {
+  width: 550px;
+  left:180px;
+ }
+
+ .hrp {
+     width:525px;
+ }
+
+.np {
+    float:right;
+    margin-right: 236px;
+}
+
+.h1p { 
+    position:absolute;
+    left:175px;
+}
+
+.vl {
+    border-left: 1px solid  rgb(163, 159, 159);
+    height:10px;
+    position: absolute;
+    left: 910px;
+    top: 55px;
+}
  
+.vl2 {
+    border-left: 1px solid  rgb(163, 159, 159);
+    height:10px;
+    position:absolute;
+    left:1045px;
+    top: 55px;
+}
+
+.c {
+    left: 800px;
+}
+
+.p {
+    left: 680px;
+}
